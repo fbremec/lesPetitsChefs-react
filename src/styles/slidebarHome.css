@@ -1,0 +1,80 @@
+
+
+#sidebar1 {
+    z-index:10;
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    background-color: #606060;
+    border-right: solid 1px #a0a0a0;
+    overflow-x: hidden;
+    display: block;
+    transition: 0.3s;
+   -webkit-box-shadow: 9px 4px 10px -4px rgba(0,0,0,0.55);
+   - moz-box-shadow: 9px 4px 10px -4px rgba(0,0,0,0.55);
+   box-shadow: 9px 4px 10px -4px rgba(0,0,0,0.55);
+}
+
+.sidebarImage{
+    borderBottom: solid 1px gray;
+    padding: 20px 10px 30px 10px;
+    border-bottom: solid 2px #a0a0a0;
+    overflow-x: hidden;
+}
+
+.sidebarLogo{
+      overflow: hidden;
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+.sidebarTitre{
+    color: #ffffff;
+    overflow: hidden;
+    font-family: Helvetica, Arial,FreeSans,sans-serif;
+    font-size:1.3rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    text-align: left;
+    float: right;
+    width: 70%;
+}
+
+
+.sidebar{
+    color: #ffffff;
+}
+.sidebar:hover{
+    background-color: #4ab848;
+}
+
+.iconBurger{
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+  background-image:url(../images/burgerldpi.png);
+  background-repeat: no-repeat;
+  float: left;
+
+}
+
+
+.geo-header {
+  color: white;
+  background-color: #4ab848;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.link{
+  color:white;
+}
+
+.link:hover{
+  color:green;
+  text-decoration: none;
+}
