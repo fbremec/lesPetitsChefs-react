@@ -7,7 +7,7 @@ import AddRecette from './components/AjouterRecette'
 import {recette} from './stores/reducer.js';
 import {Provider} from 'react-redux';
 
-import { Router, Route, browserHistory, IndexRoute  } from 'react-router-dom'
+import { Router, Route, hashHistory, IndexRoute  } from 'react-router-dom'
 import createHashHistory from 'history/createHashHistory'
 import 'core-js/fn/object/assign';
 import React from 'react';
@@ -38,9 +38,9 @@ class Rout extends React.Component{
             <div>
               <img id='slideBar_img_home' style={{position: 'absolute', top: '10px', left: '10px'}} onClick={this.burger1_OnClick} src='/images/burgerldpi.png'/>
               <SidebarHome/>
-              <Route path = '/home' component = {App} />
-              <Route path = '/appéritifs' component = {Apperitifs} />
-              <Route path = '/ajouter recette' component = {AddRecette} />
+              <Route path = 'https://fbremec.github.io/lesPetitsChefs-react/home' component = {App} />
+              <Route path = 'https://fbremec.github.io/lesPetitsChefs-react/appéritifs' component = {Apperitifs} />
+              <Route path = 'https://fbremec.github.io/lesPetitsChefs-react/ajouter recette' component = {AddRecette} />
             </div>
          </Router>
        </div>
