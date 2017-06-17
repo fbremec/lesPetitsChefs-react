@@ -8,7 +8,7 @@ import {recette} from './stores/reducer.js';
 import {Provider} from 'react-redux';
 
 import { Router, Route, browserHistory, IndexRoute  } from 'react-router-dom'
-import createBrowserHistory from 'history/createBrowserHistory'
+import createHashHistory from 'history/createHashHistory'
 import 'core-js/fn/object/assign';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -17,7 +17,7 @@ import ReactDOM from 'react-dom';
 // Render the main component into the dom
 ReactDOM.render(<App />, document.getElementById('app'));
 
-const newHistory = createBrowserHistory();
+const newHistory = createHashHistory();
 
 class Rout extends React.Component{
 
